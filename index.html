@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 5A</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+          integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+</head>
+<body>
+<main>
+    <section class="sorts">
+        <p class="sort__description">Выберите каким образом отобразить меню на странице!</p>
+        <div class="sorts__buttons">
+            <button class="sorts__button" id="sort__grid"><i class="fas fa-grip-horizontal"></i></button>
+            <button class="sorts__button" id="sort__column"><i class="fas fa-bars"></i></button>
+        </div>
+    </section>
+    <section class="filters">
+        <div class="filters__ingredient">
+            <input type="text" class="input_search" id="ingredient" placeholder="Сыр">
+            <button class="button__search" id="ingredient__search"><i class="fas fa-search"></i></button>
+        </div>
+        <div class="filters__column">
+            <div class="filters__price">
+                 Price:
+                <div class="group-buttons">
+                    <button id="price__search-up" class="button__search"><i class="fas fa-sort-up"></i></button>
+                    <button id="price__search-down" class="button__search"><i class="fas fa-sort-down"></i></button>
+                </div>
+            </div>
+            <div class="filters__name">
+                Name:
+                <div class="group-buttons">
+                    <button id="name__search-up" class="button__search"><i class="fas fa-sort-up"></i></button>
+                    <button id="name__search-down" class="button__search"><i class="fas fa-sort-down"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cards"></section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
